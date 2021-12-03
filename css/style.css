@@ -34,8 +34,8 @@ body {
 .container {
     max-width: 1600px;
     width: 100%;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,6 +171,7 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .popular-item {
@@ -179,6 +180,8 @@ body {
     border: 1px solid #0000001A;
     border-radius: 10px;
     transition: 0.8s;
+    width: 360px;
+    height: 500px;
 }
 
 .popular-item:hover {
@@ -357,4 +360,192 @@ sub {
 
 .right-way {
     margin-left: 50px;
+}
+
+.blog {
+    margin-top: 143px;
+}
+
+.blog-section-title {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+}
+
+.blog-section-text {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+.blog-images {
+    display: flex;
+    align-items: flex-start;
+}
+
+.national-park-side {
+    width: 50%;
+}
+
+.park-img {
+    height: 397px;
+    width: 554px;
+    transition: .5s ease;
+    display: block;
+    border-radius: 10px;
+}
+
+.park-img:hover {
+    box-shadow: 0 0 13px 0px rgb(0 0 0 / 50%);
+}
+
+.park-title {
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.park-description {
+    opacity: 0.6;
+    margin: 10px 0;
+}
+
+.others-side {
+    width: 50%;
+}
+
+.blog-news-list {
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+}
+
+.blog-news-item {
+    display: flex;
+}
+
+.blog-news-item img {
+    margin-right: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+.blog-news-item img:hover {
+    box-shadow: 0 0 13px 0px rgb(0 0 0 / 50%);
+}
+
+.blog-news-item:last-child img {
+    margin-bottom: 0;
+}
+
+.blog-item-title {
+    font-family: Gelasio;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.blog-item-text {
+    opacity: 0.6;
+}
+
+.blog-creators {
+    opacity: 0.8;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer {
+    padding: 70px 0;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-logo-footer:hover {
+    opacity: 0.6;
+}
+
+.email {
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+}
+
+.socials-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.socials-item {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.socials-item:first-child {
+    margin-left: 0;
+}
+
+.socials-item:hover {
+    color: #C9453B;
+}
+
+.footer-links-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links-item {
+    list-style: none;
+}
+
+.footer-links-item a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer-links-item a:first-child {
+    margin-top: 0;
+}
+
+.subscribe {
+    font-weight: 500;
+}
+
+.btn-email {
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px 10px #00000026;
+    width: 195px;
+    height: 44px;
+    border-radius: 10px;
+    opacity: 0.1;
+}
+
+.btn-email:placeholder-shown {
+    opacity: 0.5;
+}
+
+.btn-send {
+    background: #C9453B;
+    color: #fff;
+    margin-left: 35px;
+    padding: 10px 32px;
+    border-radius: 5px;
+    cursor: pointer;
 }
